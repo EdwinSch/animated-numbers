@@ -1,14 +1,15 @@
 /* ---- TARGETS && INITIALIZERS ---- */
+let getNumbers = Array.from(document.querySelectorAll(".number"));
+
 /* ---- SCRIPT ---- */
-/* ---- FUNCTIONS ---- */
 
-console.log("hello world");
+// Update counter function
+const updateCount = (element) => {
+  const value = parseInt(element.dataset.value);
+  const increment = Math.ceil(value / 1000);
+  let initialValue = 0;
+};
 
-//-- Get DOM element function
-function getElement(selector) {
-  const element = document.querySelector(selector);
-  if (element) {
-    return element;
-  }
-  throw new Error(`${element} is not found`);
-}
+getNumbers.forEach((number) => {
+  updateCount(number);
+});
