@@ -1,7 +1,5 @@
-### Main Title
+## Animated numbers
 
-## Sub Heading/Title
-
-Lorem Ipsum
+JavaScript practice project to create animated statistics or numbers.
 
 🚀 [SOME LINK](https://google.com)
