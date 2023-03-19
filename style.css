@@ -51,7 +51,7 @@ section {
 }
 
 article {
-  min-width: 300px;
+  min-width: 250px;
   background: var(--white);
   padding: 1rem 2rem;
   border-radius: 5px;
@@ -59,7 +59,7 @@ article {
 }
 
 article span {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 700;
   line-height: 1.25;
 }
@@ -67,7 +67,7 @@ article span {
 article p {
   margin: 0;
   text-transform: capitalize;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 article:nth-of-type(1) {
@@ -81,7 +81,7 @@ article:nth-of-type(3) {
 }
 
 /* --- MOBILE RESPONSIVE --- */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 900px) {
   section {
     width: auto;
     flex-direction: column;
